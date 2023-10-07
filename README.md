@@ -1,6 +1,5 @@
 # RealTimeSentimentAnalysisTwitter
-
-This Spark Streaming application analyzes the sentiment of Twitter data in real-time using Apache Spark, NLTK's VADER Sentiment Analyzer, and the Tweepy library for accessing the Twitter API.
+This repository contains a Spark Streaming application that performs real-time sentiment analysis on Twitter data using Apache Spark, NLTK's VADER Sentiment Analyzer, and the Tweepy library for accessing the Twitter API. The application ingests Twitter data via a socket connection, calculates sentiment scores, and displays the sentiment of the tweets in real-time.
 
 ## Prerequisites
 - Python
